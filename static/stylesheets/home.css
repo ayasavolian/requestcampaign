@@ -1,0 +1,9 @@
+#button{
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+  background-color: purple;
+  color: #fff;
+}
