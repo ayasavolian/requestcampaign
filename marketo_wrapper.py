@@ -244,8 +244,8 @@ class MarketoWrapper:
             payload["runAt"] = run_at
         if clone_to is not None:
             payload["cloneToProgramName"] = clone_to
-        
-        return self.__generic_api_call(call, method, json.dumps({"input": payload}))
+        print(payload)
+        return self.__generic_api_call(call, method, payload=json.dumps({"input": payload}))
     
 ############################################################################################
 #                                                                                          #
